@@ -1,0 +1,93 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "What's up", "How are you?"],
+      "responses": ["Hello! I'm UneeqBot. How can I help you today?", "Hi there! How can I assist you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "See you later", "Catch you later"],
+      "responses": ["Goodbye! Have a great day! ", "See you later! Take care!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot", "Much appreciated"],
+      "responses": ["You're welcome!", "No problem, happy to help!", "Anytime!"]
+    },
+    {
+      "tag": "about_unneeq",
+      "patterns": ["What is Uneeq AI?", "Tell me about Uneeq AI", "Uneeq AI internship", "What do you do?"],
+      "responses": ["Uneeq AI is a cutting-edge AI platform. I can answer your questions about the internship, projects, or AI topics!"]
+    },
+    {
+      "tag": "apply_internship",
+      "patterns": ["How can I apply?", "Application process", "Internship application", "Apply for internship", "Application steps"],
+      "responses": ["You can apply by submitting your application through the Uneeq AI internship portal. Make sure to fill out all required fields!"]
+    },
+    {
+      "tag": "internship_duration",
+      "patterns": ["How long is the program?", "Duration of internship", "Internship period", "Internship length"],
+      "responses": ["The internship typically lasts 1-2 months, depending on the project and your schedule."]
+    },
+    {
+      "tag": "internship_projects",
+      "patterns": ["What projects can I work on?", "Internship tasks", "Project types", "Internship projects"],
+      "responses": ["Interns can work on AI-related projects such as chatbots, data analysis, and machine learning experiments."]
+    },
+    {
+      "tag": "deadlines",
+      "patterns": ["What about the deadlines?", "When should I submit my application?", "Deadline for internship", "Application due date"],
+      "responses": ["The application deadline is typically the 25th of each month. Make sure to submit your application on time!", "Submit your internship application before the deadline to be considered."]
+    },
+    {
+      "tag": "mentor",
+      "patterns": ["Who is the mentor?", "Internship supervisor", "Who will guide us?", "Mentor details"],
+      "responses": ["Your mentor for the internship is Eng. Ahmed Hamdy. He will guide you through your projects and help you learn.", "Eng. Ahmed Hamdy is the assigned mentor and will assist you during the internship."]
+    },
+    {
+      "tag": "schedule",
+      "patterns": ["Internship schedule", "Work hours", "Daily schedule", "Timings"],
+      "responses": ["Interns are expected to follow the schedule provided by the mentor, typically flexible depending on project requirements."]
+    },
+    {
+      "tag": "requirements",
+      "patterns": ["Requirements for internship", "Eligibility", "Who can apply?", "Qualifications needed"],
+      "responses": ["The internship is open to university students with basic knowledge of programming and AI concepts. No prior professional experience is required."]
+    },
+    {
+      "tag": "tools",
+      "patterns": ["What tools will I use?", "Programming languages", "Software required", "Tech stack"],
+      "responses": ["Interns may use Python, Jupyter Notebook, TensorFlow/Keras, and other AI tools depending on the project."]
+    },
+    {
+      "tag": "faq",
+      "patterns": ["Do I get paid?", "Is this internship paid?", "Benefits", "Internship perks"],
+      "responses": ["This is an unpaid internship focused on learning and gaining real AI experience. However, you will receive mentorship and project experience."]
+    },
+    {
+      "tag": "smalltalk",
+      "patterns": ["How are you?", "What's up?", "Do you like AI?", "How's your day?"],
+      "responses": ["I'm just a bot, but I'm here to help you! 🤖", "All systems operational! How can I assist you today?"]
+    },
+
+    {
+      "tag": "joke",
+      "patterns": ["Tell me a joke"],
+      "responses": ["Why did the robot go on vacation? Because it needed to recharge! "]
+    },
+
+    {
+      "tag": "bad joke",
+      "patterns": ["That's a bad joke"],
+      "responses": ["Sorry, I'll stick to AI-related topics! "]
+    },
+
+
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["Sorry, I didn't understand that. Can you rephrase?", "Hmm, I am not sure about that. Could you ask differently?", "I didn't catch that. Could you try asking another way?"]
+    }
+  ]
+}
